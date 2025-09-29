@@ -5,6 +5,7 @@ import ManufacturerDashboard from './components/ManufacturerDashboard';
 import SterilizationProviderDashboard from './components/SterilizationProviderDashboard';
 import TestingLabDashboard from './components/TestingLabDashboard';
 import './App.css';
+import './ui-improvements.css';
 
 function App() {
   const [user, setUser] = useState(null);

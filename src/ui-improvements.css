@@ -1,0 +1,397 @@
+/* STERIX - UI/UX Improvements for Cleaner, Less Crowded Interface */
+
+/* General spacing improvements */
+* {
+  box-sizing: border-box;
+}
+
+/* Improve form spacing */
+.form-group {
+  margin-bottom: 1.5rem !important;
+}
+
+.form-control {
+  padding: 0.75rem 1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Button improvements */
+.btn {
+  padding: 0.75rem 1.5rem !important;
+  margin: 0.25rem !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease !important;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #3b82f6, #2563eb) !important;
+  border: none !important;
+}
+
+.btn-primary:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3) !important;
+}
+
+/* Table improvements */
+.table {
+  margin-bottom: 2rem !important;
+}
+
+.table th {
+  padding: 1rem 1.5rem !important;
+  background: #f8fafc !important;
+  border-bottom: 2px solid #e2e8f0 !important;
+  font-weight: 600 !important;
+}
+
+.table td {
+  padding: 1rem 1.5rem !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  vertical-align: middle !important;
+}
+
+/* Modal improvements */
+.modal-dialog {
+  margin: 2rem auto !important;
+  max-width: 800px !important;
+}
+
+.modal-content {
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3) !important;
+}
+
+.modal-header {
+  padding: 1.5rem 2rem !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+}
+
+.modal-body {
+  padding: 2rem !important;
+}
+
+.modal-footer {
+  padding: 1.5rem 2rem !important;
+  border-top: 1px solid #e2e8f0 !important;
+}
+
+/* Navigation improvements */
+.nav-tabs {
+  border-bottom: 2px solid #e2e8f0 !important;
+  margin-bottom: 2rem !important;
+}
+
+.nav-tabs .nav-item {
+  margin-bottom: -2px !important;
+  margin-right: 0.5rem !important;
+}
+
+.nav-tabs .nav-link {
+  padding: 1rem 1.5rem !important;
+  border: none !important;
+  border-radius: 8px 8px 0 0 !important;
+  font-weight: 500 !important;
+  color: #64748b !important;
+  transition: all 0.2s ease !important;
+}
+
+.nav-tabs .nav-link.active {
+  background: #3b82f6 !important;
+  color: white !important;
+  border-bottom: 2px solid #3b82f6 !important;
+}
+
+/* Card improvements for better spacing */
+.card {
+  margin-bottom: 2rem !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 12px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.2s ease !important;
+}
+
+.card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-header {
+  padding: 1.5rem 2rem !important;
+  background: #f8fafc !important;
+  border-bottom: 1px solid #e2e8f0 !important;
+  border-radius: 12px 12px 0 0 !important;
+}
+
+.card-body {
+  padding: 2rem !important;
+}
+
+.card-footer {
+  padding: 1rem 2rem !important;
+  background: #f8fafc !important;
+  border-top: 1px solid #e2e8f0 !important;
+  border-radius: 0 0 12px 12px !important;
+}
+
+/* Alert improvements */
+.alert {
+  padding: 1rem 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border-radius: 8px !important;
+  border: none !important;
+  font-weight: 500 !important;
+}
+
+.alert-success {
+  background: #dcfce7 !important;
+  color: #166534 !important;
+}
+
+.alert-warning {
+  background: #fef3c7 !important;
+  color: #92400e !important;
+}
+
+.alert-danger {
+  background: #fee2e2 !important;
+  color: #dc2626 !important;
+}
+
+.alert-info {
+  background: #dbeafe !important;
+  color: #1d4ed8 !important;
+}
+
+/* List group improvements */
+.list-group {
+  margin-bottom: 2rem !important;
+}
+
+.list-group-item {
+  padding: 1rem 1.5rem !important;
+  border: 1px solid #e2e8f0 !important;
+  margin-bottom: 2px !important;
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+.list-group-item:hover {
+  background: #f8fafc !important;
+  transform: translateX(4px) !important;
+}
+
+.list-group-item.active {
+  background: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+  color: white !important;
+}
+
+/* Badge improvements */
+.badge {
+  padding: 0.5rem 0.75rem !important;
+  border-radius: 6px !important;
+  font-weight: 500 !important;
+  font-size: 0.8rem !important;
+}
+
+/* Progress bar improvements */
+.progress {
+  height: 1rem !important;
+  border-radius: 8px !important;
+  background: #f1f5f9 !important;
+  margin-bottom: 1rem !important;
+}
+
+.progress-bar {
+  border-radius: 8px !important;
+  transition: width 0.6s ease !important;
+}
+
+/* Dropdown improvements */
+.dropdown-menu {
+  border: none !important;
+  border-radius: 8px !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15) !important;
+  padding: 0.5rem 0 !important;
+  margin-top: 0.5rem !important;
+}
+
+.dropdown-item {
+  padding: 0.75rem 1.5rem !important;
+  transition: all 0.2s ease !important;
+}
+
+.dropdown-item:hover {
+  background: #f8fafc !important;
+  color: #1e293b !important;
+}
+
+/* Breadcrumb improvements */
+.breadcrumb {
+  background: transparent !important;
+  padding: 1rem 0 !important;
+  margin-bottom: 2rem !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "→" !important;
+  color: #64748b !important;
+}
+
+/* Pagination improvements */
+.pagination {
+  margin: 2rem 0 !important;
+}
+
+.page-link {
+  padding: 0.75rem 1rem !important;
+  margin: 0 0.25rem !important;
+  border: 1px solid #e2e8f0 !important;
+  border-radius: 8px !important;
+  color: #64748b !important;
+  transition: all 0.2s ease !important;
+}
+
+.page-link:hover {
+  background: #f8fafc !important;
+  border-color: #cbd5e1 !important;
+  color: #334155 !important;
+}
+
+.page-item.active .page-link {
+  background: #3b82f6 !important;
+  border-color: #3b82f6 !important;
+  color: white !important;
+}
+
+/* Spacing utilities for better layout */
+.section-spacing {
+  margin: 3rem 0 !important;
+}
+
+.content-spacing {
+  margin: 2rem 0 !important;
+}
+
+.element-spacing {
+  margin: 1rem 0 !important;
+}
+
+.tight-spacing {
+  margin: 0.5rem 0 !important;
+}
+
+/* Container improvements */
+.container {
+  max-width: 1400px !important;
+  padding: 0 2rem !important;
+}
+
+.container-fluid {
+  padding: 0 2rem !important;
+}
+
+/* Header spacing improvements */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem !important;
+  line-height: 1.4 !important;
+}
+
+h1 {
+  margin-bottom: 1.5rem !important;
+}
+
+h2 {
+  margin-bottom: 1.25rem !important;
+}
+
+/* Paragraph spacing */
+p {
+  margin-bottom: 1rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Input group improvements */
+.input-group {
+  margin-bottom: 1.5rem !important;
+}
+
+.input-group-text {
+  padding: 0.75rem 1rem !important;
+  background: #f8fafc !important;
+  border: 1px solid #d1d5db !important;
+  color: #64748b !important;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem !important;
+  }
+  
+  .card-body {
+    padding: 1.5rem !important;
+  }
+  
+  .modal-dialog {
+    margin: 1rem !important;
+  }
+  
+  .btn {
+    width: 100% !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .table th,
+  .table td {
+    padding: 0.75rem !important;
+  }
+}
+
+/* Focus improvements for accessibility */
+.btn:focus,
+.form-control:focus,
+.nav-link:focus {
+  outline: 2px solid #3b82f6 !important;
+  outline-offset: 2px !important;
+  box-shadow: none !important;
+}
+
+/* Smooth transitions for all interactive elements */
+button,
+.btn,
+.nav-link,
+.dropdown-item,
+.list-group-item,
+.card {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+/* Loading state improvements */
+.loading {
+  opacity: 0.6 !important;
+  pointer-events: none !important;
+  transition: opacity 0.3s ease !important;
+}
+
+/* Improved scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px !important;
+  height: 8px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5f9 !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1 !important;
+  border-radius: 4px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8 !important;
+}

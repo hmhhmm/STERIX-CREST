@@ -3133,8 +3133,8 @@ body {
   box-shadow: var(--shadow-lg);
   position: fixed;
   left: 0;
-  top: 50px; /* Below thinner header */
-  height: calc(100vh - 50px);
+  top: 80px; /* Below header */
+  height: calc(100vh - 80px);
   transform: translateX(0);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   z-index: 90;
@@ -4144,9 +4144,9 @@ body {
 /* Enhanced Grid Layout */
 .dashboard-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-  gap: 1.5rem;
-  margin-top: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.75rem;
+  margin-top: 1.75rem;
   animation: fadeInUp 0.8s ease-out;
 }
 
